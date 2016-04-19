@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash" >
+
+   <TextView
+       android:id="@+id/tv_version"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:text="版本号1.0"
+       android:textSize="8sp"
+       android:textColor="#FFFFFF" />
+
+   <TextView
+       android:id="@+id/tv_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="186dp"
+       android:shadowColor="#8080FF"
+       android:shadowDx="1"
+       android:shadowDy="1"
+       android:shadowRadius="3"
+       android:text="Yang Safe让生活更简单"
+       android:textColor="#FFFFFF"
+       android:textSize="26sp" />
+
+   <TextView
+       android:id="@+id/tv_process"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       android:text="下载进度"
+       android:visibility="gone" 
+       android:textSize="8sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yang.fuhamsafe.view.BackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyAttrs="http://schemas.android.com/apk/res/com.yang.fuhamsafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TitleStyle"
+        android:text="工具"/>
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_below="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_selector"
+        android:onClick="backupSms"
+        >
+        <TextView
+            android:id="@+id/sms_title"
+            style="@style/ContentTitleStyle"
+            android:text="短信备份"/>
+        <TextView
+            android:layout_below="@+id/sms_title"
+            style="@style/ContentStyle"
+            android:text="点击备份短信"/>
+        <TextView
+            android:id="@+id/timeDetail"
+            android:layout_below="@+id/sms_title"
+            android:layout_alignParentRight="true"
+            style="@style/ContentStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/timeDetail"
+            android:layout_marginTop="10dp"
+            android:background="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_selector"
+        android:onClick="lockApp"
+        >
+        <TextView
+            android:id="@+id/app_lock"
+            style="@style/ContentTitleStyle"
+            android:text="应用加锁"/>
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_below="@+id/app_lock"
+            style="@style/ContentStyle"
+            android:text="为隐私应用加锁"/>
+        <ImageView
+            android:layout_marginRight="12dp"
+            android:id="@+id/setting_item_image"
+            android:src="@drawable/jiantou1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusableInTouchMode="false"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/desc1"
+            android:layout_marginTop="10dp"
+            android:background="@color/black" />
+    </RelativeLayout>
+
+</com.yang.fuhamsafe.view.BackgroundLayout>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.yang.fuhamsafe.fragment.UnlockFragment">
+
+    <TextView
+        android:id="@+id/app_type_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:background="@color/contentBackground"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/viewLine"
+        android:visibility="invisible"
+        android:layout_below="@+id/app_type_title"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+
+        />
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/viewLine"
+        android:id="@+id/app_type_title2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:background="@color/contentBackground"
+        android:textColor="@color/white"
+        />
+
+    <ExpandableListView
+        android:id="@+id/elv_app_manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ExpandableListView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_app_manage"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

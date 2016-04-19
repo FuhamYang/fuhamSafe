@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="12dp">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        />
+    <RelativeLayout
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="富汉卫士"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/tv_space_type"
+            android:layout_below="@+id/tv_app_name"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机内存"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/tv_app_size"
+            android:layout_below="@+id/tv_app_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18M"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

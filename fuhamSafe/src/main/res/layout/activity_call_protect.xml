@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yang.fuhamsafe.view.BackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TitleStyle"
+            android:layout_alignParentTop="true"
+            android:text="黑名单管理" />
+        <ImageView
+            android:id="@+id/imageView_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_black_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <ListView
+        android:layout_below="@+id/relativeLayout_top"
+        android:id="@+id/lv_black_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+</com.yang.fuhamsafe.view.BackgroundLayout>

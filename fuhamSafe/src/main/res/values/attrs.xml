@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--名字必须与自定义控件名字一样-->
+    <declare-styleable name = "SettingItemLayout">
+        <attr name = "title" format = "string" />
+        <attr name = "info_on" format = "string" />
+        <attr name = "info_off" format = "string" />
+    </declare-styleable>
+</resources>

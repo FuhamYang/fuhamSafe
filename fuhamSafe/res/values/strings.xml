@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">富汉卫士</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="sample_device_admin_description">超级设备管理器可以实现诸多功能</string>
+    <string name="sample_device_admin">超级设备管理器</string>
+   
+</resources>

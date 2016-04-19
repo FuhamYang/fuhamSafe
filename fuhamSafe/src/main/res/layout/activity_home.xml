@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yang.fuhamsafe.view.BackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+    <TextView
+        android:id="@+id/textView1"
+      	style="@style/TitleStyle"
+      	android:layout_alignParentTop="true"
+        android:text="功能列表" 
+        android:gravity="center"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_height="match_parent">
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:verticalSpacing="50dp"
+            android:numColumns="3" >
+        </GridView>
+
+    </RelativeLayout>
+
+
+    <com.yang.fuhamsafe.view.FocusTextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="7dp"
+        android:text="欢迎来到yang safe!欢迎来到yang safe!欢迎来到yang safe!" />
+
+</com.yang.fuhamsafe.view.BackgroundLayout>

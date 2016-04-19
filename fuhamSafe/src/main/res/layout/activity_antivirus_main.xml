@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yang.fuhamsafe.view.BackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TitleStyle"
+        android:layout_alignParentTop="true"
+        android:text="病毒查杀" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageScanning"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:padding="8dp"
+            android:src="@drawable/act_scanning_02" />
+
+        <ImageView
+            android:id="@+id/imageScanning1"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:padding="8dp"
+            android:src="@drawable/act_scanning_01" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageScanning"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在初始化"
+                android:textColor="@color/white"
+                android:textSize="26sp" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:progressDrawable="@drawable/my_process_bar"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tv_dec" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+</com.yang.fuhamsafe.view.BackgroundLayout>

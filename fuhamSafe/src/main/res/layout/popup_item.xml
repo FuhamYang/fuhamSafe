@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/local_popup_bg"
+    android:gravity="center">
+    <LinearLayout
+        style="@style/PopupLinearLayoutStyle"
+        android:id="@+id/ll_run">
+        <ImageView
+            style="@style/PopupImageViewStyle"
+
+            android:src="@drawable/img2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运行"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+       style="@style/PopupLinearLayoutStyle"
+        android:id="@+id/ll_remove">
+        <ImageView
+            style="@style/PopupImageViewStyle"
+            android:src="@drawable/img1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卸载"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_share"
+        style="@style/PopupLinearLayoutStyle">
+        <ImageView
+            android:src="@drawable/img3"
+            style="@style/PopupImageViewStyle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_detail"
+        style="@style/PopupLinearLayoutStyle">
+        <ImageView
+            android:src="@drawable/img3"
+            style="@style/PopupImageViewStyle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详情"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

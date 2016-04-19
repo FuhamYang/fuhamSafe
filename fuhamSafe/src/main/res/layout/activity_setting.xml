@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yang.fuhamsafe.view.BackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyAttrs="http://schemas.android.com/apk/res/com.yang.fuhamsafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TitleStyle"
+        android:layout_alignParentTop="true"
+        android:text="设置" />
+
+    <com.yang.fuhamsafe.view.SettingItemLayout
+        android:id="@+id/sil_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        MyAttrs:info_off="自动更新已关闭"
+        MyAttrs:info_on="自动更新已开启"
+        MyAttrs:title="自动更新设置" />
+
+    <com.yang.fuhamsafe.view.SettingItemLayout
+        android:id="@+id/in_phone_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sil_Item"
+        MyAttrs:info_off="来电显示归属已关闭"
+        MyAttrs:info_on="来电显示归属已开启"
+        MyAttrs:title="来电显示归属地设置" />
+    
+    <com.yang.fuhamsafe.view.SettingItemLayout
+        android:id="@+id/windows_dialog_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in_phone_Item"
+        MyAttrs:info_off="桌面悬浮窗已关闭"
+        MyAttrs:info_on="桌面悬浮窗已开启"
+        MyAttrs:title="桌面悬浮窗显示设置" />
+
+    <com.yang.fuhamsafe.view.SettingToastStyleLayout
+        android:id="@+id/address_style_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/windows_dialog_Item"
+        MyAttrs:title="归属地提示样式设置" />
+
+    <com.yang.fuhamsafe.view.SettingToastStyleLayout
+        android:id="@+id/address_location_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_style_Item"
+        MyAttrs:title="归属地提示框位置" />
+    <com.yang.fuhamsafe.view.SettingItemLayout
+        android:id="@+id/black_number_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_location_Item"
+        MyAttrs:title="黑名单设置"
+        MyAttrs:info_off="黑名单关闭"
+        MyAttrs:info_on="黑名单开启"/>
+    <com.yang.fuhamsafe.view.SettingItemLayout
+        android:id="@+id/app_lock_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/black_number_Item"
+        MyAttrs:title="应用锁设置"
+        MyAttrs:info_off="应用锁关闭"
+        MyAttrs:info_on="应用锁开启"/>
+
+</com.yang.fuhamsafe.view.BackgroundLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--按下时显示的图片-->
+    <item android:drawable="@drawable/shape_enter_set_guide" android:state_pressed="true"  ></item>
+    <!--默认显示的图片-->
+    <item android:drawable="@android:color/transparent"  ></item>
+</selector>

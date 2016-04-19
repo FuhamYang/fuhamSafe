@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contentBackground" >
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="防盗措施："
+	        android:textColor="@color/white"
+	        android:textSize="20sp" />
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView1"
+	        android:layout_below="@+id/textView1"
+	
+	        android:text=" ● SIM卡变更报警"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView2"
+	        android:layout_below="@+id/textView2"
+	        android:layout_marginTop="14dp"
+	        android:text=" ● GPS定位追踪"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView3"
+	        android:layout_below="@+id/textView3"
+	        android:layout_marginTop="14dp"
+	        android:text=" ● 远程销毁数据"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView4"
+	        android:layout_below="@+id/textView4"
+	        android:layout_marginTop="14dp"
+	        android:text=" ● 远程锁屏"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+	</RelativeLayout>
+	  
+</RelativeLayout>

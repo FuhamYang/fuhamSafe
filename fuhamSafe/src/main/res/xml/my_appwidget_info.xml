@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+　　< /appwidget-provider>
+
+　　下面是< appwidget-provider>属性的总结：
+
+　　· minWidth 和minHeight 属性的值指定了这个App Widget布局需要的最小区域。
+    不能大于手机屏幕的宽高，否则会不显示
+
+　　缺省的App Widgets所在窗口的桌面位置基于有确切高度和宽度的单元网格。如果App Widget的最小长宽和
+    这些网格单元的尺寸不匹配，那么这个App Widget将收缩到最接近的单元尺寸。(参见App Widget Design
+    Guidelines 以获取更多关于桌面单元尺寸的信息)
+
+　　因为桌面布局方向(由此，单元的尺寸)可以变化，按照拇指规则，你应该假设最坏情况单元尺寸是74像素高
+    和宽。不过，你必须从最后的尺寸中减去2以把像素计算过程中产生的任何的整数舍入误差考虑在内。要找
+    到像素密度无关的最小宽度和高度，使用这个公式：
+
+　　(number of cells * 74) - 2
+
+　　遵循这个公式，你应该使用72dp为每一个单元高度，294dp为四个单元宽度。
+
+　　· updatePerdiodMillis 属性定义了App Widget框架调用onUpdate()方法来从AppWidgetProvider请求一次更
+    新的频度。实际更新时间并不那么精确，而且我们建议更新频率越低越好-也许每小时不超过一次以节省电源。
+    你也许还会允许用户在配置中调整这个频率-一些人可能想每15分钟一次股票报价，或者一天只要四次。
+
+　　· initialLayout属性指向定义App Widget布局的资源。
+
+　　· configure属性定义了Activity ，当用户添加App Widget时启动，以为他或她配置App Widget特性。这是
+        可选的(阅读下面的Creating an App Widget Configuration Activity)。
+appwidget-provider-->
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:minWidth="300dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/process_widget"
+    >
+
+</appwidget-provider>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/activity/ContactsActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/activity/HomeActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/activity/SplashActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/dao/AddressDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/fragment/FragmentFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/fragment/SetStep2Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/fragment/SetStep3Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/fragment/SetStep4Fragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/receiver/AdminReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/receiver/BootReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/receiver/SmsReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/service/DesktopService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/service/InPhoneService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/service/LocationService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/utils/AppIsTopUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/utils/DensityUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/utils/MD5Utils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/utils/ServiceStatusUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/utils/StreamUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/utils/ToastUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/view/BackgroundLayout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/view/FocusTextView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/view/MyViewPager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/view/SettingItemLayout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fuhamSafe/src/main/java/com/yang/fuhamsafe/view/SettingToastStyleLayout.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

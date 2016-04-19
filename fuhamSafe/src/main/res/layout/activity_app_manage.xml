@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yang.fuhamsafe.view.BackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TitleStyle"
+        android:layout_alignParentTop="true"
+        android:text="应用管理" />
+    <LinearLayout
+        android:id="@+id/linearLayout_top"
+        android:padding="6dp"
+        android:layout_below="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/romSpaceTextView"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="手机内存可用：xxx"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/sdSpaceTextView"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="sd卡内存可用：xxx"
+            android:textSize="16sp"
+        />
+    </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/linearLayout_top"
+            android:id="@+id/app_type_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            />
+    <TextView
+        android:id="@+id/viewLine"
+        android:layout_below="@+id/app_type_title"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_below="@+id/viewLine"
+        android:id="@+id/app_type_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        />
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar_app_manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <!--ListView
+        android:layout_below="@+id/app_type_title"
+        android:id="@+id/lv_app_manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/-->
+
+    <ExpandableListView
+        android:layout_below="@+id/linearLayout_top"
+        android:id="@+id/elv_app_manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ExpandableListView>
+
+</com.yang.fuhamsafe.view.BackgroundLayout>
